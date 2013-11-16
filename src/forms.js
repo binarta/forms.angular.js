@@ -28,9 +28,7 @@ function FormsFieldDirectiveFactory(topicRegistry) {
                 scope.editable = !scope.editable
             });
             topicRegistry.subscribe('form.field.updated', function (it) {
-                console.log('form.field.updated');
-                console.dir(it);
-                if (scope.it == it) scope.editing = !scope.editing;
+                if (scope.it == it) scope.editing = false;
             });
         }
     };

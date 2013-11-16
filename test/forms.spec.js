@@ -82,6 +82,8 @@ describe('forms', function () {
                     it('and on form.field.updated notification received disable editing mode', function() {
                         topics['form.field.updated'](scope.it);
                         expect(scope.editing).toEqual(false);
+                        topics['form.field.updated'](scope.it);
+                        expect(scope.editing).toEqual(false);
                     });
                 });
             });
