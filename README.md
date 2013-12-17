@@ -1,6 +1,6 @@
 # forms.angular.js
 
-[AngularJS](http://angularjs.org/) module for facilitating the editing of form fields
+[AngularJS](http://angularjs.org/) module for facilitating the editing of form fields.
 Based on the [Binarta](http://binarta.com/) platform.
 
 ## Copyright and license
